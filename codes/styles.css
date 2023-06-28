@@ -1,0 +1,132 @@
+/* Meet the Team section */
+#team {
+    /*padding: 2rem;*/
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #0b0c10;
+    color: #fff;
+  }
+  
+  #team h2 {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  
+  #team p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+  
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto; /* Center the carousel within its container */
+  margin-bottom: 10rem;
+}
+  
+.member {
+  background-color: #1f2833;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-right: 2rem;
+  min-width: 200px;
+  flex-shrink: 0;
+  transform-origin: center center; /* Add transform-origin for proper rotation */
+}
+
+.member:hover {
+  box-shadow: 0 0 20px #45a29e; 
+}
+  
+.member img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  height: 12rem;
+}
+  
+  .member h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .member h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .member h5 {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .member p {
+    font-size: 1rem;
+  }
+  
+  
+ 
+#carousal-section{
+  padding: 6.5%;
+  height: 100%;
+  background-color: #0b0c10;
+  margin-top: 2rem;
+}
+
+.intro{
+  padding: 3%;
+  background-color: #1f2833;
+  height: auto;
+  border-radius: 5vmin;
+  font-size: 1rem;
+  color: #66fcf1;
+  /* box-shadow: 3px 3px 5px ; */
+
+}
+
+.intro:hover {
+  box-shadow: 0 0 20px #45a29e; 
+}
+
+.intro-sections{
+  background-color: #0b0c10;
+  padding: 10%;
+}
+
+.logo{
+  height: 5rem;
+  width: 5rem;
+}
+
+.video_section{
+  height: 42rem;
+}
+.input_file_media{
+  color: #45a29e;
+  background-color: #0b0c10;
+  padding: 10%;
+  margin: 10%;
+  border-style: dotted;
+  border-color: #ffffff;
+  border-radius: 10px;
+}
+.input_file_media:hover{
+  box-shadow: 0 0 40px #45a29e; 
+}
+.head{
+  font-size: 18px;
+  margin-left: 2rem;
+  margin-top: 1.7rem;
+  color: #66fcf1;
+}
